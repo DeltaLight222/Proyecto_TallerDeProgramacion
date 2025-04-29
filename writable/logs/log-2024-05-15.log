@@ -1,0 +1,166 @@
+CRITICAL - 2024-05-15 14:23:02 --> Invalid file: front/registrarse.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/registrar...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/registrar...', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\Home.php(63): view('front/registrar...')
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\Home->registrarse()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 14:49:30 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:00:58 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:01:03 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:01:28 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:01:50 --> unlink(C:\xampp\htdocs\proyec1\writable\debugbar/debugbar_1715478438.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\proyec1\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyec1\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1715803310, 20)
+#3 C:\xampp\htdocs\proyec1\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\proyec1\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\proyec1\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-15 15:02:00 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:02:40 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:02:43 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:02:47 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:03:18 --> Invalid file: front/head_view.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head_view...')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head_view', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head_view', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:05:51 --> Invalid file: front/head.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head.php')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:05:52 --> Invalid file: front/head.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head.php')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:05:59 --> Invalid file: front/head.php
+#0 C:\xampp\htdocs\proyec1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/head.php')
+#1 C:\xampp\htdocs\proyec1\system\Common.php(1089): CodeIgniter\View\View->render('front/head', Array, true)
+#2 C:\xampp\htdocs\proyec1\app\Controllers\usuario_controller.php(15): view('front/head', Array)
+#3 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->create()
+#4 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:20:07 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\proyec1\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\proyec1\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyec1\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\proyec1\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\proyec1\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-15 15:20:22 --> Class 'App\Models\usuario_Model' not found
+#0 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->formValidation()
+#1 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#2 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-15 15:21:14 --> Class 'App\Models\usuario_Model' not found
+#0 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->formValidation()
+#1 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#2 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-15 15:21:40 --> Class 'App\Models\usuario_Model' not found
+#0 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->formValidation()
+#1 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#2 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-15 15:22:26 --> Class 'App\Models\usuario_Model' not found
+#0 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->formValidation()
+#1 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#2 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-15 15:22:48 --> Class 'App\Models\usuario_Model' not found
+#0 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(832): App\Controllers\usuario_controller->formValidation()
+#1 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#2 C:\xampp\htdocs\proyec1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyec1\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
